@@ -11,6 +11,9 @@
 #import "WYKNewViewController.h"
 #import "WYKFriendTrendsViewController.h"
 #import "WYKMeViewController.h"
+#import "WYKTabBar.h"
+
+
 @interface WYKTabBarController ()
 
 @end
@@ -38,7 +41,8 @@
     [self setupChildVc:[[WYKNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setupChildVc:[[WYKFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setupChildVc:[[WYKMeViewController alloc] init] title:@"我的" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
-
+//    self.tabBar = [[WYKTabBar alloc] init];
+    [self setValue:[[WYKTabBar alloc] init] forKey:@"tabBar"];
 
 }
 - (void)setupChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage{

@@ -15,6 +15,8 @@
 		A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */; };
 		A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */; };
 		A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */; };
+		A770B76E1CA6CFC4005327B8 /* WYKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */; };
+		A770B7711CA6DC6F005327B8 /* UIView+WYKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,11 @@
 		A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKFriendTrendsViewController.m; sourceTree = "<group>"; };
 		A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKMeViewController.h; sourceTree = "<group>"; };
 		A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKMeViewController.m; sourceTree = "<group>"; };
+		A770B76C1CA6CFC4005327B8 /* WYKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBar.h; sourceTree = "<group>"; };
+		A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBar.m; sourceTree = "<group>"; };
+		A770B76F1CA6DC6F005327B8 /* UIView+WYKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYKExtension.h"; sourceTree = "<group>"; };
+		A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYKExtension.m"; sourceTree = "<group>"; };
+		A770B7721CA6DD1D005327B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,11 @@
 				A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */,
 				A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */,
 				A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */,
+				A770B76C1CA6CFC4005327B8 /* WYKTabBar.h */,
+				A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */,
+				A770B76F1CA6DC6F005327B8 /* UIView+WYKExtension.h */,
+				A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */,
+				A770B7721CA6DD1D005327B8 /* PrefixHeader.pch */,
 				A763466C1CA59FDC00351DFE /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -164,9 +176,11 @@
 			files = (
 				A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */,
 				A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */,
+				A770B7711CA6DC6F005327B8 /* UIView+WYKExtension.m in Sources */,
 				A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */,
 				A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */,
 				A770B7621CA6CB67005327B8 /* WYKEssenceViewController.m in Sources */,
+				A770B76E1CA6CFC4005327B8 /* WYKTabBar.m in Sources */,
 				A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */,
 				A763466E1CA59FDC00351DFE /* main.m in Sources */,
 			);
@@ -262,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
