@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WYKTabBarController.h
 //  百思不得姐
 //
 //  Created by 王玉琨 on 16/3/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WYKTabBarController : UITabBarController
 
 @end
-

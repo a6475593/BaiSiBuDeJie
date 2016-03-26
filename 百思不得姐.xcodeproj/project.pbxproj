@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */; };
 		A763466E1CA59FDC00351DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A763466D1CA59FDC00351DFE /* main.m */; };
 		A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346701CA59FDC00351DFE /* AppDelegate.m */; };
-		A76346741CA59FDC00351DFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346731CA59FDC00351DFE /* ViewController.m */; };
 		A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76346781CA59FDC00351DFE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71C1F851CA69AEF00D40FA9 /* WYKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBarController.h; sourceTree = "<group>"; };
+		A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBarController.m; sourceTree = "<group>"; };
 		A76346691CA59FDC00351DFE /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A763466D1CA59FDC00351DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A763466F1CA59FDC00351DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A76346701CA59FDC00351DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A76346721CA59FDC00351DFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A76346731CA59FDC00351DFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A76346781CA59FDC00351DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A763467D1CA59FDC00351DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,8 +56,8 @@
 			children = (
 				A763466F1CA59FDC00351DFE /* AppDelegate.h */,
 				A76346701CA59FDC00351DFE /* AppDelegate.m */,
-				A76346721CA59FDC00351DFE /* ViewController.h */,
-				A76346731CA59FDC00351DFE /* ViewController.m */,
+				A71C1F851CA69AEF00D40FA9 /* WYKTabBarController.h */,
+				A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */,
 				A763466C1CA59FDC00351DFE /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -99,6 +99,7 @@
 		A76346611CA59FDC00351DFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WYK;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "王玉琨";
 				TargetAttributes = {
@@ -141,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76346741CA59FDC00351DFE /* ViewController.m in Sources */,
 				A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */,
+				A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */,
 				A763466E1CA59FDC00351DFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +280,7 @@
 				A76346821CA59FDC00351DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
