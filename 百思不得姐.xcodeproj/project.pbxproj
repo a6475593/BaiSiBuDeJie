@@ -10,9 +10,7 @@
 		A763466E1CA59FDC00351DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A763466D1CA59FDC00351DFE /* main.m */; };
 		A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346701CA59FDC00351DFE /* AppDelegate.m */; };
 		A76346741CA59FDC00351DFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346731CA59FDC00351DFE /* ViewController.m */; };
-		A76346771CA59FDC00351DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76346751CA59FDC00351DFE /* Main.storyboard */; };
 		A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76346781CA59FDC00351DFE /* Assets.xcassets */; };
-		A763467C1CA59FDC00351DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763467A1CA59FDC00351DFE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +20,7 @@
 		A76346701CA59FDC00351DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A76346721CA59FDC00351DFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A76346731CA59FDC00351DFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A76346761CA59FDC00351DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76346781CA59FDC00351DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A763467B1CA59FDC00351DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A763467D1CA59FDC00351DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,10 +58,6 @@
 				A76346701CA59FDC00351DFE /* AppDelegate.m */,
 				A76346721CA59FDC00351DFE /* ViewController.h */,
 				A76346731CA59FDC00351DFE /* ViewController.m */,
-				A76346751CA59FDC00351DFE /* Main.storyboard */,
-				A76346781CA59FDC00351DFE /* Assets.xcassets */,
-				A763467A1CA59FDC00351DFE /* LaunchScreen.storyboard */,
-				A763467D1CA59FDC00351DFE /* Info.plist */,
 				A763466C1CA59FDC00351DFE /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -74,6 +66,8 @@
 		A763466C1CA59FDC00351DFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A76346781CA59FDC00351DFE /* Assets.xcassets */,
+				A763467D1CA59FDC00351DFE /* Info.plist */,
 				A763466D1CA59FDC00351DFE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,9 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A763467C1CA59FDC00351DFE /* LaunchScreen.storyboard in Resources */,
 				A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */,
-				A76346771CA59FDC00351DFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,25 +148,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A76346751CA59FDC00351DFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A76346761CA59FDC00351DFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A763467A1CA59FDC00351DFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A763467B1CA59FDC00351DFE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A763467E1CA59FDC00351DFE /* Debug */ = {
@@ -263,10 +236,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyukun.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,10 +250,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyukun.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
