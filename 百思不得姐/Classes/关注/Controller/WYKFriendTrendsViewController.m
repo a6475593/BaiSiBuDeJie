@@ -1,22 +1,32 @@
 //
-//  WYKMeViewController.m
+//  WYKFriendTrendsViewController.m
 //  百思不得姐
 //
 //  Created by 王玉琨 on 16/3/26.
 //  Copyright © 2016年 王玉琨. All rights reserved.
 //
 
-#import "WYKMeViewController.h"
+#import "WYKFriendTrendsViewController.h"
 
-@interface WYKMeViewController ()
+@interface WYKFriendTrendsViewController ()
 
 @end
 
-@implementation WYKMeViewController
+@implementation WYKFriendTrendsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.navigationItem setTitle:@"我的关注"];
+    
+    
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
+ 
+}
+
+
+- (void)friendsClick{
+    WYKLogFUNC
 }
 
 - (void)didReceiveMemoryWarning {

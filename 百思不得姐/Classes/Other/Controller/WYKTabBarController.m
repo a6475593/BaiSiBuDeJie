@@ -23,7 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont systemFontOfSize:11];
     attrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
@@ -41,7 +40,6 @@
     [self setupChildVc:[[WYKNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setupChildVc:[[WYKFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setupChildVc:[[WYKMeViewController alloc] init] title:@"我的" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
-//    self.tabBar = [[WYKTabBar alloc] init];
     [self setValue:[[WYKTabBar alloc] init] forKey:@"tabBar"];
 
 }
@@ -49,8 +47,12 @@
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
-    [self addChildViewController:vc];
+    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+   
+    [self addChildViewController:nav];
+    
+   
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

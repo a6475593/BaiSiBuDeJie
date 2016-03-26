@@ -11,4 +11,15 @@
 
 #import "UIView+WYKExtension.h"
 
+#import "UIBarButtonItem+WYKExtension.h"
+
+#ifdef DEBUG
+#define WYKLog(...) NSLog(__VA_ARGS__)
+#else
+#define WYKLog(...)
+#endif
+
+#define WYKLogFUNC WYKLog(@"%s",__func__);
+
+
 #endif

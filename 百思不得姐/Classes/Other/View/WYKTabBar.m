@@ -10,19 +10,25 @@
 
 @implementation WYKTabBar
 
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
+        [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        [publishButton setSize:publishButton.currentBackgroundImage.size];
+        self.publishButton = publishButton;
+        [self addSubview:self.publishButton];
+    }
+    return self;
+}
+
 - (void)layoutSubviews{
     [super layoutSubviews];
     
     CGFloat width = self.width;
     CGFloat height = self.height;
- 
-    UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
-    [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
-    [publishButton setWidth:publishButton.currentBackgroundImage.size.width];
-    [publishButton setHeight:publishButton.currentBackgroundImage.size.height];
-    [publishButton setCenter:CGPointMake(width/2,height/2)];
-    [self addSubview:publishButton];
+      
+    [self.publishButton setCenter:CGPointMake(width/2,height/2)];
     
     NSInteger index = 0;
     CGFloat buttonY = 0;

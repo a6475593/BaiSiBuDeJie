@@ -1,22 +1,27 @@
 //
-//  WYKFriendTrendsViewController.m
+//  WYKNewViewController.m
 //  百思不得姐
 //
 //  Created by 王玉琨 on 16/3/26.
 //  Copyright © 2016年 王玉琨. All rights reserved.
 //
 
-#import "WYKFriendTrendsViewController.h"
+#import "WYKNewViewController.h"
 
-@interface WYKFriendTrendsViewController ()
+@interface WYKNewViewController ()
 
 @end
 
-@implementation WYKFriendTrendsViewController
+@implementation WYKNewViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+}
+
+- (void)tagClick{
+    WYKLogFUNC
 }
 
 - (void)didReceiveMemoryWarning {

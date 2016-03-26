@@ -11,6 +11,7 @@
 @interface WYKTabBar : UITabBar
 
 
-
+/** 按钮 **/
+@property (nonatomic,strong) UIButton *publishButton;
 
 @end

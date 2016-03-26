@@ -7,40 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */; };
-		A763466E1CA59FDC00351DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A763466D1CA59FDC00351DFE /* main.m */; };
-		A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346701CA59FDC00351DFE /* AppDelegate.m */; };
 		A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76346781CA59FDC00351DFE /* Assets.xcassets */; };
-		A770B7621CA6CB67005327B8 /* WYKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */; };
-		A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */; };
-		A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */; };
-		A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */; };
-		A770B76E1CA6CFC4005327B8 /* WYKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */; };
-		A770B7711CA6DC6F005327B8 /* UIView+WYKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */; };
+		A770B7A11CA7036C005327B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B77B1CA7036C005327B8 /* AppDelegate.m */; };
+		A770B7A21CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B77E1CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m */; };
+		A770B7A31CA7036C005327B8 /* UIView+WYKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7801CA7036C005327B8 /* UIView+WYKExtension.m */; };
+		A770B7A41CA7036C005327B8 /* WYKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7831CA7036C005327B8 /* WYKTabBarController.m */; };
+		A770B7A51CA7036C005327B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7841CA7036C005327B8 /* main.m */; };
+		A770B7A61CA7036C005327B8 /* WYKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7881CA7036C005327B8 /* WYKTabBar.m */; };
+		A770B7A71CA7036C005327B8 /* WYKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B78C1CA7036C005327B8 /* WYKFriendTrendsViewController.m */; };
+		A770B7A81CA7036C005327B8 /* WYKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7921CA7036C005327B8 /* WYKMeViewController.m */; };
+		A770B7A91CA7036C005327B8 /* WYKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7981CA7036C005327B8 /* WYKNewViewController.m */; };
+		A770B7AA1CA7036C005327B8 /* WYKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B79E1CA7036C005327B8 /* WYKEssenceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A71C1F851CA69AEF00D40FA9 /* WYKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBarController.h; sourceTree = "<group>"; };
-		A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBarController.m; sourceTree = "<group>"; };
 		A76346691CA59FDC00351DFE /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A763466D1CA59FDC00351DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A763466F1CA59FDC00351DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A76346701CA59FDC00351DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A76346781CA59FDC00351DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A763467D1CA59FDC00351DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A770B7601CA6CB67005327B8 /* WYKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKEssenceViewController.h; sourceTree = "<group>"; };
-		A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKEssenceViewController.m; sourceTree = "<group>"; };
-		A770B7631CA6CB9C005327B8 /* WYKNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKNewViewController.h; sourceTree = "<group>"; };
-		A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKNewViewController.m; sourceTree = "<group>"; };
-		A770B7661CA6CBDB005327B8 /* WYKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKFriendTrendsViewController.h; sourceTree = "<group>"; };
-		A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKFriendTrendsViewController.m; sourceTree = "<group>"; };
-		A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKMeViewController.h; sourceTree = "<group>"; };
-		A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKMeViewController.m; sourceTree = "<group>"; };
-		A770B76C1CA6CFC4005327B8 /* WYKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBar.h; sourceTree = "<group>"; };
-		A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBar.m; sourceTree = "<group>"; };
-		A770B76F1CA6DC6F005327B8 /* UIView+WYKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYKExtension.h"; sourceTree = "<group>"; };
-		A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYKExtension.m"; sourceTree = "<group>"; };
-		A770B7721CA6DD1D005327B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A770B77A1CA7036C005327B8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A770B77B1CA7036C005327B8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A770B77D1CA7036C005327B8 /* UIBarButtonItem+WYKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WYKExtension.h"; sourceTree = "<group>"; };
+		A770B77E1CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WYKExtension.m"; sourceTree = "<group>"; };
+		A770B77F1CA7036C005327B8 /* UIView+WYKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYKExtension.h"; sourceTree = "<group>"; };
+		A770B7801CA7036C005327B8 /* UIView+WYKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYKExtension.m"; sourceTree = "<group>"; };
+		A770B7821CA7036C005327B8 /* WYKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBarController.h; sourceTree = "<group>"; };
+		A770B7831CA7036C005327B8 /* WYKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBarController.m; sourceTree = "<group>"; };
+		A770B7841CA7036C005327B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A770B7851CA7036C005327B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A770B7871CA7036C005327B8 /* WYKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKTabBar.h; sourceTree = "<group>"; };
+		A770B7881CA7036C005327B8 /* WYKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKTabBar.m; sourceTree = "<group>"; };
+		A770B78B1CA7036C005327B8 /* WYKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKFriendTrendsViewController.h; sourceTree = "<group>"; };
+		A770B78C1CA7036C005327B8 /* WYKFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKFriendTrendsViewController.m; sourceTree = "<group>"; };
+		A770B7911CA7036C005327B8 /* WYKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKMeViewController.h; sourceTree = "<group>"; };
+		A770B7921CA7036C005327B8 /* WYKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKMeViewController.m; sourceTree = "<group>"; };
+		A770B7971CA7036C005327B8 /* WYKNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKNewViewController.h; sourceTree = "<group>"; };
+		A770B7981CA7036C005327B8 /* WYKNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKNewViewController.m; sourceTree = "<group>"; };
+		A770B79D1CA7036C005327B8 /* WYKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKEssenceViewController.h; sourceTree = "<group>"; };
+		A770B79E1CA7036C005327B8 /* WYKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKEssenceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,23 +76,7 @@
 		A763466B1CA59FDC00351DFE /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				A763466F1CA59FDC00351DFE /* AppDelegate.h */,
-				A76346701CA59FDC00351DFE /* AppDelegate.m */,
-				A71C1F851CA69AEF00D40FA9 /* WYKTabBarController.h */,
-				A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */,
-				A770B7601CA6CB67005327B8 /* WYKEssenceViewController.h */,
-				A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */,
-				A770B7631CA6CB9C005327B8 /* WYKNewViewController.h */,
-				A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */,
-				A770B7661CA6CBDB005327B8 /* WYKFriendTrendsViewController.h */,
-				A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */,
-				A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */,
-				A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */,
-				A770B76C1CA6CFC4005327B8 /* WYKTabBar.h */,
-				A770B76D1CA6CFC4005327B8 /* WYKTabBar.m */,
-				A770B76F1CA6DC6F005327B8 /* UIView+WYKExtension.h */,
-				A770B7701CA6DC6F005327B8 /* UIView+WYKExtension.m */,
-				A770B7721CA6DD1D005327B8 /* PrefixHeader.pch */,
+				A770B7781CA7036C005327B8 /* Classes */,
 				A763466C1CA59FDC00351DFE /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -100,9 +87,195 @@
 			children = (
 				A76346781CA59FDC00351DFE /* Assets.xcassets */,
 				A763467D1CA59FDC00351DFE /* Info.plist */,
-				A763466D1CA59FDC00351DFE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A770B7781CA7036C005327B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A770B79B1CA7036C005327B8 /* 精华 */,
+				A770B7951CA7036C005327B8 /* 新帖 */,
+				A770B7891CA7036C005327B8 /* 关注 */,
+				A770B78F1CA7036C005327B8 /* 我的 */,
+				A770B7791CA7036C005327B8 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A770B7791CA7036C005327B8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A770B77C1CA7036C005327B8 /* Category */,
+				A770B7811CA7036C005327B8 /* Controller */,
+				A770B7861CA7036C005327B8 /* View */,
+				A770B77A1CA7036C005327B8 /* AppDelegate.h */,
+				A770B77B1CA7036C005327B8 /* AppDelegate.m */,
+				A770B7841CA7036C005327B8 /* main.m */,
+				A770B7851CA7036C005327B8 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A770B77C1CA7036C005327B8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A770B77D1CA7036C005327B8 /* UIBarButtonItem+WYKExtension.h */,
+				A770B77E1CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m */,
+				A770B77F1CA7036C005327B8 /* UIView+WYKExtension.h */,
+				A770B7801CA7036C005327B8 /* UIView+WYKExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A770B7811CA7036C005327B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7821CA7036C005327B8 /* WYKTabBarController.h */,
+				A770B7831CA7036C005327B8 /* WYKTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A770B7861CA7036C005327B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7871CA7036C005327B8 /* WYKTabBar.h */,
+				A770B7881CA7036C005327B8 /* WYKTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A770B7891CA7036C005327B8 /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A770B78A1CA7036C005327B8 /* Controller */,
+				A770B78D1CA7036C005327B8 /* Model */,
+				A770B78E1CA7036C005327B8 /* View */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		A770B78A1CA7036C005327B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A770B78B1CA7036C005327B8 /* WYKFriendTrendsViewController.h */,
+				A770B78C1CA7036C005327B8 /* WYKFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A770B78D1CA7036C005327B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A770B78E1CA7036C005327B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A770B78F1CA7036C005327B8 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7901CA7036C005327B8 /* Controller */,
+				A770B7931CA7036C005327B8 /* Model */,
+				A770B7941CA7036C005327B8 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		A770B7901CA7036C005327B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7911CA7036C005327B8 /* WYKMeViewController.h */,
+				A770B7921CA7036C005327B8 /* WYKMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A770B7931CA7036C005327B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A770B7941CA7036C005327B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A770B7951CA7036C005327B8 /* 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7961CA7036C005327B8 /* Controller */,
+				A770B7991CA7036C005327B8 /* Model */,
+				A770B79A1CA7036C005327B8 /* View */,
+			);
+			path = "新帖";
+			sourceTree = "<group>";
+		};
+		A770B7961CA7036C005327B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A770B7971CA7036C005327B8 /* WYKNewViewController.h */,
+				A770B7981CA7036C005327B8 /* WYKNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A770B7991CA7036C005327B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A770B79A1CA7036C005327B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A770B79B1CA7036C005327B8 /* 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				A770B79C1CA7036C005327B8 /* Controller */,
+				A770B79F1CA7036C005327B8 /* Model */,
+				A770B7A01CA7036C005327B8 /* View */,
+			);
+			path = "精华";
+			sourceTree = "<group>";
+		};
+		A770B79C1CA7036C005327B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A770B79D1CA7036C005327B8 /* WYKEssenceViewController.h */,
+				A770B79E1CA7036C005327B8 /* WYKEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A770B79F1CA7036C005327B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A770B7A01CA7036C005327B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,15 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */,
-				A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */,
-				A770B7711CA6DC6F005327B8 /* UIView+WYKExtension.m in Sources */,
-				A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */,
-				A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */,
-				A770B7621CA6CB67005327B8 /* WYKEssenceViewController.m in Sources */,
-				A770B76E1CA6CFC4005327B8 /* WYKTabBar.m in Sources */,
-				A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */,
-				A763466E1CA59FDC00351DFE /* main.m in Sources */,
+				A770B7A51CA7036C005327B8 /* main.m in Sources */,
+				A770B7A61CA7036C005327B8 /* WYKTabBar.m in Sources */,
+				A770B7A21CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m in Sources */,
+				A770B7A71CA7036C005327B8 /* WYKFriendTrendsViewController.m in Sources */,
+				A770B7A81CA7036C005327B8 /* WYKMeViewController.m in Sources */,
+				A770B7A11CA7036C005327B8 /* AppDelegate.m in Sources */,
+				A770B7A31CA7036C005327B8 /* UIView+WYKExtension.m in Sources */,
+				A770B7AA1CA7036C005327B8 /* WYKEssenceViewController.m in Sources */,
+				A770B7A91CA7036C005327B8 /* WYKNewViewController.m in Sources */,
+				A770B7A41CA7036C005327B8 /* WYKTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -291,7 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
