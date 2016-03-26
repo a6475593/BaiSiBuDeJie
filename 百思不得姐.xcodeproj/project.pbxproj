@@ -11,6 +11,10 @@
 		A763466E1CA59FDC00351DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A763466D1CA59FDC00351DFE /* main.m */; };
 		A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76346701CA59FDC00351DFE /* AppDelegate.m */; };
 		A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76346781CA59FDC00351DFE /* Assets.xcassets */; };
+		A770B7621CA6CB67005327B8 /* WYKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */; };
+		A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */; };
+		A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */; };
+		A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,14 @@
 		A76346701CA59FDC00351DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A76346781CA59FDC00351DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A763467D1CA59FDC00351DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A770B7601CA6CB67005327B8 /* WYKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKEssenceViewController.h; sourceTree = "<group>"; };
+		A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKEssenceViewController.m; sourceTree = "<group>"; };
+		A770B7631CA6CB9C005327B8 /* WYKNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKNewViewController.h; sourceTree = "<group>"; };
+		A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKNewViewController.m; sourceTree = "<group>"; };
+		A770B7661CA6CBDB005327B8 /* WYKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKFriendTrendsViewController.h; sourceTree = "<group>"; };
+		A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKFriendTrendsViewController.m; sourceTree = "<group>"; };
+		A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKMeViewController.h; sourceTree = "<group>"; };
+		A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 				A76346701CA59FDC00351DFE /* AppDelegate.m */,
 				A71C1F851CA69AEF00D40FA9 /* WYKTabBarController.h */,
 				A71C1F861CA69AEF00D40FA9 /* WYKTabBarController.m */,
+				A770B7601CA6CB67005327B8 /* WYKEssenceViewController.h */,
+				A770B7611CA6CB67005327B8 /* WYKEssenceViewController.m */,
+				A770B7631CA6CB9C005327B8 /* WYKNewViewController.h */,
+				A770B7641CA6CB9C005327B8 /* WYKNewViewController.m */,
+				A770B7661CA6CBDB005327B8 /* WYKFriendTrendsViewController.h */,
+				A770B7671CA6CBDB005327B8 /* WYKFriendTrendsViewController.m */,
+				A770B7691CA6CBE7005327B8 /* WYKMeViewController.h */,
+				A770B76A1CA6CBE7005327B8 /* WYKMeViewController.m */,
 				A763466C1CA59FDC00351DFE /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -142,7 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A770B76B1CA6CBE7005327B8 /* WYKMeViewController.m in Sources */,
+				A770B7651CA6CB9C005327B8 /* WYKNewViewController.m in Sources */,
 				A76346711CA59FDC00351DFE /* AppDelegate.m in Sources */,
+				A770B7681CA6CBDB005327B8 /* WYKFriendTrendsViewController.m in Sources */,
+				A770B7621CA6CB67005327B8 /* WYKEssenceViewController.m in Sources */,
 				A71C1F871CA69AEF00D40FA9 /* WYKTabBarController.m in Sources */,
 				A763466E1CA59FDC00351DFE /* main.m in Sources */,
 			);
