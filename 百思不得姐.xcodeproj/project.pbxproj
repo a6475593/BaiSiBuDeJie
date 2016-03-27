@@ -18,6 +18,8 @@
 		A770B7A81CA7036C005327B8 /* WYKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7921CA7036C005327B8 /* WYKMeViewController.m */; };
 		A770B7A91CA7036C005327B8 /* WYKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B7981CA7036C005327B8 /* WYKNewViewController.m */; };
 		A770B7AA1CA7036C005327B8 /* WYKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770B79E1CA7036C005327B8 /* WYKEssenceViewController.m */; };
+		A7FBFE161CA77EE1002C2B4D /* WYKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FBFE151CA77EE1002C2B4D /* WYKNavigationController.m */; };
+		A7FBFE181CA7997E002C2B4D /* WYKFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FBFE171CA7997E002C2B4D /* WYKFriendTrendsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,9 @@
 		A770B7981CA7036C005327B8 /* WYKNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKNewViewController.m; sourceTree = "<group>"; };
 		A770B79D1CA7036C005327B8 /* WYKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKEssenceViewController.h; sourceTree = "<group>"; };
 		A770B79E1CA7036C005327B8 /* WYKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKEssenceViewController.m; sourceTree = "<group>"; };
+		A7FBFE141CA77EE1002C2B4D /* WYKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKNavigationController.h; sourceTree = "<group>"; };
+		A7FBFE151CA77EE1002C2B4D /* WYKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKNavigationController.m; sourceTree = "<group>"; };
+		A7FBFE171CA7997E002C2B4D /* WYKFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYKFriendTrendsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +111,9 @@
 		A770B7791CA7036C005327B8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A770B77C1CA7036C005327B8 /* Category */,
 				A770B7811CA7036C005327B8 /* Controller */,
 				A770B7861CA7036C005327B8 /* View */,
+				A770B77C1CA7036C005327B8 /* Category */,
 				A770B77A1CA7036C005327B8 /* AppDelegate.h */,
 				A770B77B1CA7036C005327B8 /* AppDelegate.m */,
 				A770B7841CA7036C005327B8 /* main.m */,
@@ -133,6 +138,8 @@
 			children = (
 				A770B7821CA7036C005327B8 /* WYKTabBarController.h */,
 				A770B7831CA7036C005327B8 /* WYKTabBarController.m */,
+				A7FBFE141CA77EE1002C2B4D /* WYKNavigationController.h */,
+				A7FBFE151CA77EE1002C2B4D /* WYKNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 			children = (
 				A770B78B1CA7036C005327B8 /* WYKFriendTrendsViewController.h */,
 				A770B78C1CA7036C005327B8 /* WYKFriendTrendsViewController.m */,
+				A7FBFE171CA7997E002C2B4D /* WYKFriendTrendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -336,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FBFE181CA7997E002C2B4D /* WYKFriendTrendsViewController.xib in Resources */,
 				A76346791CA59FDC00351DFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A770B7A51CA7036C005327B8 /* main.m in Sources */,
+				A7FBFE161CA77EE1002C2B4D /* WYKNavigationController.m in Sources */,
 				A770B7A61CA7036C005327B8 /* WYKTabBar.m in Sources */,
 				A770B7A21CA7036C005327B8 /* UIBarButtonItem+WYKExtension.m in Sources */,
 				A770B7A71CA7036C005327B8 /* WYKFriendTrendsViewController.m in Sources */,

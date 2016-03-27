@@ -22,15 +22,17 @@
                                                 [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)],
                                                 [UIBarButtonItem itemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(nightModeClick)]
                                                 ];
+    self.view.backgroundColor = WYKGlobalColor;
+
 }
 
 
 - (void)settingClick{
-    WYKLogFUNC
+    WYKLogFUNC;
 }
 
 - (void)nightModeClick{
-    WYKLogFUNC
+    WYKLogFUNC;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

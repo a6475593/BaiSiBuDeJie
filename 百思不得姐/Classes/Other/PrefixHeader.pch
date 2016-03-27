@@ -19,7 +19,8 @@
 #define WYKLog(...)
 #endif
 
-#define WYKLogFUNC WYKLog(@"%s",__func__);
-
+#define WYKLogFUNC WYKLog(@"%s",__func__)
+#define WYKRGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define WYKGlobalColor WYKRGBColor(223,223,223,1)
 
 #endif

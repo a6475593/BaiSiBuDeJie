@@ -12,7 +12,7 @@
 #import "WYKFriendTrendsViewController.h"
 #import "WYKMeViewController.h"
 #import "WYKTabBar.h"
-
+#import "WYKNavigationController.h"
 
 @interface WYKTabBarController ()
 
@@ -20,9 +20,8 @@
 
 @implementation WYKTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+
++ (void)initialize{
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont systemFontOfSize:11];
     attrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
@@ -34,7 +33,10 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedattrs forState:UIControlStateSelected];
-    
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
     [self setupChildVc:[[WYKEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     [self setupChildVc:[[WYKNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
@@ -42,13 +44,13 @@
     [self setupChildVc:[[WYKMeViewController alloc] init] title:@"我的" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     [self setValue:[[WYKTabBar alloc] init] forKey:@"tabBar"];
 
+
 }
 - (void)setupChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage{
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    WYKNavigationController *nav = [[WYKNavigationController alloc] initWithRootViewController:vc];
    
     [self addChildViewController:nav];
     

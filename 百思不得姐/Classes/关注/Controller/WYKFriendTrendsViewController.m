@@ -21,12 +21,13 @@
     
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
- 
+    self.view.backgroundColor = WYKGlobalColor;
+
 }
 
 
 - (void)friendsClick{
-    WYKLogFUNC
+    WYKLogFUNC;
 }
 
 - (void)didReceiveMemoryWarning {
