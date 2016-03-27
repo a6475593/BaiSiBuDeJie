@@ -7,6 +7,7 @@
 //
 
 #import "WYKFriendTrendsViewController.h"
+#import "WYKRecommendViewController.h"
 
 @interface WYKFriendTrendsViewController ()
 
@@ -27,7 +28,8 @@
 
 
 - (void)friendsClick{
-    WYKLogFUNC;
+    WYKRecommendViewController *vc = [[WYKRecommendViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 - (void)didReceiveMemoryWarning {

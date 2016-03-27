@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WYKRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="FIc-6C-tPc" id="BLu-cq-paf"/>
+                <outlet property="userTableView" destination="6Pm-F2-1vx" id="XpU-f0-Hju"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FIc-6C-tPc" userLabel="左侧的表格">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="9AM-Sg-ms3"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="zKB-vZ-hvb"/>
+                        <outlet property="delegate" destination="-1" id="eSB-lb-zwy"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Pm-F2-1vx" userLabel="右侧的表格">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="dcg-9I-rjV"/>
+                        <outlet property="delegate" destination="-1" id="riW-vf-hPM"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6Pm-F2-1vx" firstAttribute="leading" secondItem="FIc-6C-tPc" secondAttribute="trailing" id="C7J-r6-W2R"/>
+                <constraint firstItem="FIc-6C-tPc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GNX-Ec-seR"/>
+                <constraint firstItem="6Pm-F2-1vx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Sgu-pr-FDQ"/>
+                <constraint firstAttribute="trailing" secondItem="6Pm-F2-1vx" secondAttribute="trailing" id="bYW-iX-Yhi"/>
+                <constraint firstAttribute="bottom" secondItem="FIc-6C-tPc" secondAttribute="bottom" id="eE0-ra-s7T"/>
+                <constraint firstAttribute="bottom" secondItem="6Pm-F2-1vx" secondAttribute="bottom" id="lQS-QC-m7S"/>
+                <constraint firstItem="FIc-6C-tPc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nQ8-mp-0F1"/>
+            </constraints>
+            <point key="canvasLocation" x="103" y="134"/>
+        </view>
+    </objects>
+</document>
