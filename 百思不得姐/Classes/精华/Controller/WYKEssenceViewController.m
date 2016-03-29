@@ -7,7 +7,7 @@
 //
 
 #import "WYKEssenceViewController.h"
-
+#import "WYKRecommendTagsTableViewController.h"
 @interface WYKEssenceViewController ()
 
 @end
@@ -24,7 +24,10 @@
 }
 
 - (void)tagClick{
-    WYKLogFUNC;
+    WYKRecommendTagsTableViewController *vc = [[WYKRecommendTagsTableViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
+
+
 }
 
 - (void)didReceiveMemoryWarning {

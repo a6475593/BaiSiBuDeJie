@@ -15,7 +15,14 @@
 - (void)setUser:(WYKRecommendUser *)user{
     _user = user;
     self.screenNameLabel.text = _user.screen_name;
-    self.fansCountLabel.text = [NSString stringWithFormat:@"%zd人关注",_user.fans_count];
+    
+    NSString *fanscount = nil;
+    if (_user.fans_count < 10000) {
+        fanscount = [NSString stringWithFormat:@"%zd人关注",_user.fans_count];
+    }else{
+        fanscount = [NSString stringWithFormat:@"%.2f人关注",_user.fans_count /10000.0];
+    }
+    self.fansCountLabel.text = fanscount;
     [self.headerImageView sd_setImageWithURL:[NSURL URLWithString:_user.header] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
 }
 
