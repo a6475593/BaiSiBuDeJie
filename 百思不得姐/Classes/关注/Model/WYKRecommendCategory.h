@@ -7,12 +7,12 @@
 // 推荐关注 左边的数据模型
 
 #import <Foundation/Foundation.h>
-
+#import <MJExtension.h>
 @interface WYKRecommendCategory : NSObject
 
 
 /** id **/
-@property (nonatomic,assign) NSInteger id;
+@property (nonatomic,assign) NSInteger ID;
 /** 总数 **/
 @property (nonatomic,assign) NSInteger count;
 /** 总数 **/

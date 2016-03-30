@@ -111,7 +111,7 @@ static NSString * const WYKUserID = @"user";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"list";
     parameters[@"c"] = @"subscribe";
-    parameters[@"category_id"] = @([WYKSelectedCategory id]);
+    parameters[@"category_id"] = @([WYKSelectedCategory ID]);
     parameters[@"page"] = @(category.currentPage);
     self.parameters = parameters;
     
@@ -143,7 +143,7 @@ static NSString * const WYKUserID = @"user";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"list";
     parameters[@"c"] = @"subscribe";
-    parameters[@"category_id"] = @([WYKSelectedCategory id]);
+    parameters[@"category_id"] = @([WYKSelectedCategory ID]);
     parameters[@"page"] = @(++category.currentPage);
     self.parameters = parameters;
     [self.AFmanager GET:@"http://api.budejie.com/api/api_open.php" parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
